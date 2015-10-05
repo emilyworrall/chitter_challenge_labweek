@@ -7,6 +7,7 @@ env = ENV['RACK_ENV'] || 'development'
 
 # require all models here  e.g require './app/models/etc'
 require './app/models/peep'
+require './app/models/user'
 
 
 DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/chitterlab_#{env}")
