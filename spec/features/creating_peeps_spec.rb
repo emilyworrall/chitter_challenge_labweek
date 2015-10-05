@@ -15,4 +15,9 @@ feature 'Creating peeps' do
     end
   end
 
+  scenario 'There are no peeps in the db at the start of the test' do
+    expect(Peep.count).to eq 0
+
+  end
+
 end

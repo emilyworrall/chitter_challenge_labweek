@@ -13,4 +13,5 @@ group :test do
   gem 'rubocop'
   gem 'coveralls', require: false
   gem 'factory_girl'
+  gem 'database_cleaner'
 end
