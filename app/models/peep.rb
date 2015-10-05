@@ -9,3 +9,4 @@ class Peep
   property :message, String
 
 end
+hello
