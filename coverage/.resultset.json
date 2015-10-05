@@ -1,10 +1,10 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/harrietcraven/Projects/chitter_challenge_labweek/spec/features/signing_up_spec.rb": [
+      "/Users/EmilyWorrall/Desktop/Projects/week_6/chitter_challenge_lab_week/spec/features/signing_up_spec.rb": [
         1
       ],
-      "/Users/harrietcraven/Projects/chitter_challenge_labweek/spec/features/viewing_peeps_spec.rb": [
+      "/Users/EmilyWorrall/Desktop/Projects/week_6/chitter_challenge_lab_week/spec/features/viewing_peeps_spec.rb": [
         1,
         1,
         null,
@@ -22,6 +22,6 @@
         null
       ]
     },
-    "timestamp": 1444054713
+    "timestamp": 1444055277
   }
 }
