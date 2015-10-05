@@ -1,13 +1,14 @@
 require 'data_mapper'
 require 'dm-validations'
 require 'dm-timestamps'
-require 'sinatra/base'
-require 'sinatra/flash'
+# require 'sinatra/base'
+# require 'sinatra/flash'
 
 # require all models here  e.g require './app/models/etc'
+require './app/models/peep'
 
 env = ENV['RACK_ENV'] || 'development'
 
-DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/chitter_#{env}")
+DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/chitterlab_#{env}")
 DataMapper.finalize
 DataMapper.auto_upgrade!
